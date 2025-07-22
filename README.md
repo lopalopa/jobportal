@@ -91,8 +91,8 @@ Building real-world projects using XAMPP stack
 Hello! I’m Rashmi Prava Mishra, a passionate software developer, freelancer, and educator.
 I specialize in full-stack web development using PHP, Java, React, Laravel, and more.
 
-📺 Follow My YouTube Channel for complete tutorials:
-👉 https://www.youtube.com/@rashmipravamishra
+## 📺 Follow My YouTube Channel for complete tutorials:
+👉 https://www.youtube.com/@ExcelCodebyRASHMIMAM
 
 ## 🤝 Contributing
 Want to contribute?
