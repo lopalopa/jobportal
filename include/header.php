@@ -48,13 +48,13 @@ $user_name = $_SESSION['user_name'];
 
                 <li><a href="profile.php">My Profile</a></li>
 
-                <li><a href="user_dashboard.php">Dashboard</a></li>
+                <li><a href="new_user_dashboard.php">Dashboard</a></li>
 
             <?php } ?>
 
             <li class="user-info">Welcome, <strong><?php echo htmlspecialchars($user_name); ?></strong></li>
 
-            <li><a href="logout.php" class="logout-btn">Logout</a></li>
+            <li><a href="../auth/logout.php" class="logout-btn">Logout</a></li>
 
         </ul>
 

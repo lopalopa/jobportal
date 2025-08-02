@@ -25,7 +25,6 @@ $result = mysqli_query($conn, $query);
 </head>
 <body class="bg-light">
 
-<?php include '../include/navbar.php'; ?>
 
 <div class="container my-5">
     <h2 class="text-center text-primary mb-4">Manage Users</h2>
@@ -67,7 +66,6 @@ $result = mysqli_query($conn, $query);
     </div>
 </div>
 
-<?php include '../include/footer.php'; ?>
 
 <!-- Bootstrap Bundle JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

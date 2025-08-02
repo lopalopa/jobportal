@@ -39,7 +39,7 @@ $user_role = $_SESSION['user_role'];
 
         <?php if ($user_role === 'admin') { ?>
 
-            <li><a href="manage_users.php">Manage Users</a></li>
+            <li><a href="../admin/manage_users.php">Manage Users</a></li>
             <li><a href="../employer/add_employer.php">Add Employer</a></li>
             <li><a href="../jobs/manage_jobs.php">Job details</a></li>
             <li><a href="../employer/view_applicants.php">View Applicants</a></li>
@@ -50,12 +50,13 @@ $user_role = $_SESSION['user_role'];
             <li><a href="settings.php">Settings</a></li>
 
         <?php } else { ?>
+                        <li><a href="new_user_dashboard.php">Dashboard</a></li>
+
 
             <li><a href="profile.php">My Profile</a></li>
             <li><a href="../jobs/job_list.php">view jobs</a></li>
             
 
-            <li><a href="user_dashboard.php">Dashboard</a></li>
 
         <?php } ?>
 

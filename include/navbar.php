@@ -46,13 +46,13 @@ crossorigin="anonymous"></script>
 
 <li><a href="dashboard.php">Dashboard</a></li>
 
-<li><a href="/onlinejobportal/auth/logout.php" class="btn-logout">Logout</a></li>
+<li><a href="/jobportal/auth/logout.php" class="btn-logout">Logout</a></li>
 
 <?php } else { ?>
 
-<li><a href="/onlinejobportal/auth/new_login.php" class="btn-login">Login</a></li>
+<li><a href="/jobportal/auth/new_login.php" class="btn-login">Login</a></li>
 
-<li><a href="/onlinejobportal/auth/new_register.php" class="btn-register">Register</a></li>
+<li><a href="/jobportal/auth/new_register.php" class="btn-register">Register</a></li>
 
 <?php } ?>
 

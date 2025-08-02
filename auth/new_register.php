@@ -94,7 +94,7 @@ session_start();
 
             $_SESSION['success'] = "Registration successful! You can now log in.";
 
-            header("Location: login.php");
+            header("Location: new_login.php");
 
             exit();
 
@@ -352,7 +352,7 @@ session_start();
 
     <div class="form-container">
 
-        <form action="register.php" method="POST">
+        <form action="new_register.php" method="POST">
 
             <div class="form-group">
 

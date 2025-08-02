@@ -60,11 +60,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 if ($row['role'] === 'admin') {
 
-                    header("Location: /onlinejobportal/admin/admin_dashboard.php");
+                    header("Location: /jobportal/admin/admin_dashboard.php");
 
                 } else {
 
-                    header("Location: /onlinejobportal/user/new_user_dashboard.php");
+                    header("Location: /jobportal/user/new_user_dashboard.php");
 
                 }
 
@@ -274,7 +274,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
 
-<?php include '../include/navbar.php'; ?>
 
 <div class="container">
 
