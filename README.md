@@ -77,6 +77,9 @@ jobportal/
 ├── index.php          → Landing page
 └── README.md          → You're reading it!
 
+## 📸 Screenshot
+
+![Dashboard Screenshot](screenshots/dashboard.png)
 
 ## 🧠 Learning Outcomes
 Understanding MVC-like separation using PHP
