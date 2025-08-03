@@ -118,7 +118,7 @@ Open a Pull Request
 This project is open-source and available for learning purposes.
 
 📬 Contact
-📧 Email: rashmipravamishra@example.com
+📧 Email: rashmipravamishra@gmail.com
 🌐 Portfolio: [https://lopalopa.github.io/freelancer-portfolio/]
 🔗 LinkedIn: [https://www.linkedin.com/in/rashmi-mishra-187734106/]
 
