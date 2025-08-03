@@ -52,6 +52,8 @@ crossorigin="anonymous"></script>
 
 <li><a href="/jobportal/auth/new_login.php" class="btn-login">Login</a></li>
 
+<li><a href="/jobportal/auth/employer_login.php" class="btn-login">Employer Login</a></li>
+
 <li><a href="/jobportal/auth/new_register.php" class="btn-register">Register</a></li>
 
 <?php } ?>

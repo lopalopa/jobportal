@@ -8,9 +8,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $company_name = mysqli_real_escape_string($conn, $_POST['company_name']);
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $industry = mysqli_real_escape_string($conn, $_POST['industry']);
+
+    // ✅ NEW
+    $username = mysqli_real_escape_string($conn, $_POST['username']);
+    $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
+
     $image = $_FILES['image'];
 
-    if (!empty($name) && !empty($company_name) && !empty($email) && !empty($image['name'])) {
+    if (!empty($name) && !empty($company_name) && !empty($email) && !empty($username) && !empty($_POST['password']) && !empty($image['name'])) {
         $email_check_query = "SELECT id FROM employers WHERE email = '$email'";
         $result = $conn->query($email_check_query);
 
@@ -50,8 +55,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
 
             if ($uploadOk && move_uploaded_file($image["tmp_name"], $target_file)) {
-                $sql = "INSERT INTO employers (name, company_name, email, industry, logo)
-                        VALUES ('$name', '$company_name', '$email', '$industry', '$target_file')";
+                // ✅ Updated INSERT query
+                $sql = "INSERT INTO employers (name, company_name, email, industry, username, password, logo)
+                        VALUES ('$name', '$company_name', '$email', '$industry', '$username', '$password', '$target_file')";
 
                 if ($conn->query($sql) === TRUE) {
                     $alertMessage = "<div class='alert alert-success'>Employer added successfully!</div>";
@@ -63,12 +69,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             }
         }
     } else {
-        $alertMessage = "<div class='alert alert-warning'>All fields except industry are required.</div>";
+        $alertMessage = "<div class='alert alert-warning'>All fields are required.</div>";
     }
 }
 
 $conn->close();
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -160,6 +167,17 @@ $conn->close();
                             <label for="image">Company Logo:</label>
                             <input type="file" class="form-control-file" id="image" name="image" accept="image/*" required>
                         </div>
+                        <div class="form-group">
+    <label for="username">Username:</label>
+    <input type="text" class="form-control" id="username" name="username" placeholder="Choose a username" required>
+</div>
+
+<div class="form-group">
+    <label for="password">Password:</label>
+    <input type="password" class="form-control" id="password" name="password" placeholder="Create a password" required>
+</div>
+
+ 
 
                         <button type="submit" class="btn btn-primary btn-block">Add Employer</button>
                     </form>
