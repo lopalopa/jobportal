@@ -36,7 +36,7 @@ A full-featured web-based Job Portal system where **job seekers** can search and
 
 🎥 **Watch the Full Project Tutorial on YouTube**  
 Subscribe and follow along:  
-📺 [Rashmi Prava Mishra – Web Development Tutorials](https://www.youtube.com/@rashmipravamishra)  
+📺 [Rashmi Prava Mishra – Web Development Tutorials](https://www.youtube.com/@WebDevWithRashmiMam)  
 ✅ Don't forget to Like, Share, and Subscribe!
 
 ---
