@@ -81,6 +81,15 @@ jobportal/
 
 ![Dashboard Screenshot](screenshots/dashboard.png)
 
+##OUTPUT
+🎥 Watch the full demo video on YouTube:
+ 👉 [https://lnkd.in/gWtAZSGU]
+📖 Read the full development blog:
+ 📝[https://lnkd.in/gwVChcde]
+💻 Explore the source code on GitHub:
+ 🔗 [https://lnkd.in/gE2yauYt]
+
+
 ## 🧠 Learning Outcomes
 Understanding MVC-like separation using PHP
 
@@ -95,7 +104,7 @@ Hello! I’m Rashmi Prava Mishra, a passionate software developer, freelancer, a
 I specialize in full-stack web development using PHP, Java, React, Laravel, and more.
 
 ## 📺 Follow My YouTube Channel for complete tutorials:
-👉 https://www.youtube.com/@ExcelCodebyRASHMIMAM
+👉 https://www.youtube.com/@WebDevWithRashmiMam
 
 ## 🤝 Contributing
 Want to contribute?
